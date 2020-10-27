@@ -1,0 +1,168 @@
+body{
+    font-family: Arial;
+}
+
+.topbar{
+    float:left;
+    margin-top: 5px;
+}
+
+.topbartext{
+    color:#5F6368;
+    text-decoration: none;
+    font-size: 11pt;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.topbar :hover{
+    text-decoration: underline;
+}
+
+.topbar-right:hover {
+    float: right;
+}
+
+.topbar-right{
+    float: right;
+}
+
+.signin {
+    background-color:#4683ea;;
+    color: ghostwhite;
+    border-radius: 2px;
+    border: 0px;
+    width: 75px;
+    height: 30px;
+}
+
+.signin:hover{
+    text-decoration: none;
+}
+
+.search{
+    background-color: transparent;
+    padding-top: 200px;
+}
+
+.logo{
+    width: 350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.searchborder{
+    border: 1px solid gray;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    height: 40px;
+    width: 700px;
+    border-radius: 20px;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.searchborder:hover{
+    box-shadow: 1px 1px 5px gray;
+}
+
+.searchbar{
+    width: 600px;
+    display: flex;
+    height: 30px;
+    border: 0px;
+    background-color: transparent;
+}
+
+.searchlogo{
+    display: flex;
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    opacity: 0.5;
+}
+
+.miclogo{
+    display: flex;
+    width: 15px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+#twobuttons{
+    padding: 10px;
+    text-align: center;
+}
+
+.btns{
+    background-color:whitesmoke;
+    border: 1px sollid whitesmoke;
+    border-radius: 4px;
+    color: #5F6368;
+    width: 130px;
+    padding: 6px;
+    font-size: 13px;
+}
+
+.btns:hover{
+    border: 1px solid black;
+    color: black;
+}
+
+.searchbar {border-radius: 10px;}
+
+.footeritems {
+    color: lightslategray;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    float: left;
+    font-size: 12px;
+}
+
+.footerright {
+    color: lightslategray;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 20px;
+    float: right;
+    font-size: 12px;
+}
+.bottomfooter {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.topfooter {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.topitem{
+    color: lightslategray;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    float: left;
+    font-size: 15px;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
